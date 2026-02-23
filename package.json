@@ -1,0 +1,13 @@
+{
+  "name": "evm-bridge-relayer-kit",
+  "version": "1.0.0",
+  "description": "Cross-chain event relayer for EVM networks",
+  "main": "relayer.js",
+  "dependencies": {
+    "ethers": "^6.11.1",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start": "node relayer.js"
+  }
+}
